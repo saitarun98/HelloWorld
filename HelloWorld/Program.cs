@@ -6,7 +6,11 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
+            //User input to display Hello World!
+            Console.WriteLine("Press any key to continue...");
             Console.WriteLine("Hello World!");
+            //Continues after keypress
+            Console.ReadKey(true); 
         }
     }
 }
